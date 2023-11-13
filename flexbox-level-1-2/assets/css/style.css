@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    background-image: url('../img/tj-dragotta-Gl0jBJJTDWs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    list-style: none;
+    gap: 30px;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}

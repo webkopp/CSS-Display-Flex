@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato";
+    color: rgba(0,0,0,.8);
+}
+
+/* In dieser Aufgabe sollst du eine Landingpage mit einer geteilten Navigation und einer Bildergalerie bauen, die sich anpasst, wenn man das Browser-Fenster schmaler zieht. Schau dir das Design an und wende folgende Anweisungen an:
+Nutze die Schriftart "Lato". Diese kannst du dir über Google Fonts herunterladen und über dein CSS einbinden.
+Die background-color ist #D9E8E5, der graue Text ist rgba(0,0,0,.8).
+Nutze margin: auto um die letzten beiden Menüpunkte an den rechten Rand zu positionieren.
+Nutze flex-wrap: wrap für die Bildergalerie */
+
+body {
+    width: 100vw;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    background-image: url("../img/logo.png.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a {
+    padding-left: 25px;
+    color: rgba(0,0,0,.8);
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul:nth-child(1) {
+    color: aqua;
+    justify-content: flex-start;
+
+}
+
+ul:nth-child(2) {
+    color: mediumslateblue;
+    justify-content: flex-end;
+}
+
+main {
+    background-color: #D9E8E5;
+}

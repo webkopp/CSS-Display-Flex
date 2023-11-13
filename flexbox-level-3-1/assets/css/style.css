@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hier sind die Assets für die Aufgabe:
+Font-family:"Raleway",
+Headerhöhe:76px,
+Logofarbe: #666,
+Logofarbe in hover: #333,
+Menüfarbe: #333,
+und Menüfarbe in hover: #337ab7 */
+
+html {
+    font-family: "Raleway";
+    font-size: 13px;
+}
+
+header {
+    width: 100vw;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.logo {
+    color: #666;
+    font-size: 24px;
+    border: solid 3px violet; 
+}
+
+.logo:hover {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #337ab7;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    color: #333;
+    gap: 20px;
+    list-style-type: none;
+    border: solid 3px greenyellow; 
+}
+
+header nav ul:hover {
+    color: #337ab7;
+}
+
+main {
+    background-image: url("../img/photo-1443527216320-7e744084f5a7-1.jpg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+
+    border: 1px solid greenyellow;
+}
+
+section {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    color: white;
+    border: 1px solid white;
+}
+
+div {
+    padding: 50px;
+    border: 1px solid purple;
+}
+
+p:nth-child(1) {
+    font-size: 45px;
+    padding-bottom: 18px;
+}
+
+p:nth-child(2) {
+    font-size: 20px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    border-style: none;
+}
+
+button:nth-of-type(1) {
+    background-color: #745CF9;
+}
+
+button:nth-of-type(1):hover {
+    background-color: #333;
+}
+
+button:nth-of-type(2) {
+    width: 194px;
+    border: 3px solid white;
+
+}
+
+button:nth-of-type(2):hover {
+    background-color: black;
+}
